@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:th="http://www.thymeleaf.org"
+	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+	<meta charset="UTF-8">
+	<title>jpa-thymeleaf</title>
+</head>
+<body>
+	<div th:fragment="header">
+		<h3>头部</h3>
+		<a href="/users" th:href="@{~/users}">首页</a>
+	</div>
+</body>
+</html>
